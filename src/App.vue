@@ -1,18 +1,44 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div id="toplevel-wrapper" class="container-fluid d-flex min-vh-100 flex-column">
+    
+    <router-view/>
+    <FooterComponent v-show="$route.name!=='home'" class="row mt-auto pa-0 gx-0" /> <!-- fixed-bottom (class) -->
+  </div>  
 </template>
 
+<script>
+
+import FooterComponent from '@/components/FooterComponent.vue'
+
+export default {
+  components: {
+    FooterComponent,
+    
+    
+  }
+}
+</script>
+
+
 <style>
+
+::-webkit-scrollbar {
+    display: none;
+} 
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: didot;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #333D29;
+  background-color: #E6E3D9;
+ 
+}
+
+#toplevel-wrapper {
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 nav {
