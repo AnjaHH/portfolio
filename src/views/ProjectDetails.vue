@@ -19,7 +19,7 @@
           </div>
           <div id="smallbox2" class="col-12 col-sm-6">
                           <div class="pdffile2">
-          <iframe src="https://drive.google.com/file/d/1cuSZjUaQcQSu_-mss_cC5ejV_v_FXbsP/preview" width="400" height="500" allow="autoplay"></iframe>              </div>
+          <iframe src="https://drive.google.com/file/d/1cuSZjUaQcQSu_-mss_cC5ejV_v_FXbsP/preview" width="350" height="500" allow="autoplay"></iframe>              </div>
             </div>
             
           
@@ -62,7 +62,7 @@
           </div>
           <div id="smallbox2" class="col-12 col-sm-6">
               <div class="pdffile">
-                <iframe src="https://drive.google.com/file/d/1bU-FeKyfeMuK-YzpCVvKdnGtrPCWDv40/preview" width="400" height="500" allow="autoplay"></iframe>
+                <iframe src="https://drive.google.com/file/d/1bU-FeKyfeMuK-YzpCVvKdnGtrPCWDv40/preview" width="350" height="500" allow="autoplay"></iframe>
 </div>
             
             
@@ -164,12 +164,20 @@ p {
 }
 
 @media all and (max-width: 576px) {
+.img1 {
+  width: 300px;
+}
+
+.img2 {
+  width: 300px;
+}
+
 .img3 {
-  width: 400px;
+  width: 350px;
 }
 .videoyoutube {
-  width: 450px;
-  height: 250px;
+  width: 350px;
+  height: 200px;
 }
 }
 

@@ -77,20 +77,28 @@ export default {
     
 }
 
+
 #link {
     text-decoration: none;
+    
 }
 
 #card-title {
     color: #333D29;
     text-decoration: none;
+    border: #333D29 solid 1px;
+    padding: 3px;
 }
 
 .card-text {
     color: #F88824;
 }
 
-
+@media all and (max-width: 576px) {
+.row {
+   --bs-gutter-x: 0rem; 
+}
+}
 
 
 </style>

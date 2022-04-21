@@ -168,6 +168,14 @@ padding-right: 50px;
 
 
 @media all and (max-width: 576px) {
+#white {
+  .h1 {
+font-size: 30px;
+  }
+  .h2 {
+    font-size: 15px;
+  }
+}
 
   #green {
     height: 60vh;

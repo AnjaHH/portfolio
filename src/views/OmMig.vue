@@ -14,7 +14,7 @@
       
       <div class="box1">
        <h2>Hvem er jeg så?</h2>
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 150</p>
+       <p>Jeg er 23 år gammel og bor ikke langt fra Grindsted ca. midt i Jylland, godt ude på landet. Her trives jeg med lange udsigter, frisk luft og ro til kreativ udfoldelse. Jeg holder af minimalistiske, æstetiske og enkelte designs, hvor der er ro og plads til de vigtigste elementer.</p>
       </div>
 <div class="text">
         <img src="../../images/paintbrush.png" alt="" style="width: 400px;">
@@ -220,11 +220,17 @@ h2 {
 
 #contact {
   h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    
+    background-color: #333D29;
+    padding: 20px;
+    color: #E6E3D9;
+  
     
   }
   h3 {
     font-style: bold;
+    padding-bottom: 20px;
   }
   h4 {
     font-style: italic;
@@ -293,6 +299,13 @@ h2 {
 }
 
 #contact {
+
+  h2 {
+    background-color: #333D29;
+    padding: 20px;
+    color: #E6E3D9;
+  }
+  
   .imglogosmall {
     width: 150px;
     margin-left: 250px;
@@ -320,7 +333,7 @@ h2 {
   
   
   img {
-    width: 400px;
+    width: 350px;
     border: solid white 10px;
   }
 }
