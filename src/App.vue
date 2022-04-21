@@ -25,7 +25,9 @@ export default {
 ::-webkit-scrollbar {
     display: none;
 } 
-
+.container-fluid {
+  padding: 0 !important
+}
 #app {
   font-family: didot;
   -webkit-font-smoothing: antialiased;
@@ -33,6 +35,8 @@ export default {
   text-align: center;
   color: #333D29;
   background-color: #E6E3D9;
+  margin: 0%;
+  padding: 0%;
  
 }
 

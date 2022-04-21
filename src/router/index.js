@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import OmMig from '../views/OmMig.vue'
 import ProjectView from '../views/ProjectView.vue'
+import ProjectDetails from '../views/ProjectDetails.vue'
 
 const routes = [
   {
@@ -19,10 +20,16 @@ const routes = [
     
   },
   {
-  path: '/projectview',
-  name: 'Projectview',
+  path: '/projekter',
+  name: 'ProjectView',
   component: ProjectView
-  }
+  },
+  {
+    path: '/projectdetails/:id',
+    name: 'ProjectDetails',
+    component: ProjectDetails,
+    props: true
+  },
 ]
 
 const router = createRouter({

@@ -4,3 +4,4 @@
     <router-link to="/om-mig">Om Mig</router-link>
   </nav>
 </template>
+
